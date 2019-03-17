@@ -4,15 +4,15 @@
   "parameters": {
     "rebuildVNET01": {
       "type": "string",
-      "defaultValue": "No"
+      "defaultValue": "Yes"
     },
     "rebuildVNET02": {
       "type": "string",
-      "defaultValue": "No"
+      "defaultValue": "Yes"
     },
     "rebuildVNET03": {
       "type": "string",
-      "defaultValue": "No"
+      "defaultValue": "Yes"
     },
     "workshopName": {
       "type": "string",
