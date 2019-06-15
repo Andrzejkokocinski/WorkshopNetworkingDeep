@@ -2,7 +2,7 @@
 sudo passwd root
 su root
 sudo apt-get update
-sudo apt-get install apache2
+sudo apt-get install apache2 -y
 echo "<body style="background-color:red\;"><h1>VM01</h1>" | tee /var/www/html/index.html	
 service apache2 restart
 
@@ -10,7 +10,7 @@ service apache2 restart
 sudo passwd root
 su root
 sudo apt-get update
-sudo apt-get install apache2
+sudo apt-get install apache2 -y
 echo "<body style="background-color:green\;"><h1>VM02</h1>" | tee /var/www/html/index.html
 service apache2 restart
 
