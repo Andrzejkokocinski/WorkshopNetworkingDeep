@@ -1,8 +1,12 @@
 #vm01
 sudo passwd root
 su root
+
+
+
 sudo apt-get update
 sudo apt-get install apache2 -y
+sudo su
 echo "<body style="background-color:red\;"><h1>VM01</h1>" | tee /var/www/html/index.html	
 sudo service apache2 restart
 
