@@ -44,7 +44,7 @@
         }
     },
     "variables": {
-        "nic": "az104-04-nic",
+        "nic": "nic",
         "virtualNetworkName": "[parameters('virtualNetworkName')]",
         "subnetName": "subnet",
         "subnet0Name": "subnet0",
