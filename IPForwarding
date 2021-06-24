@@ -2,8 +2,8 @@ sudo passwd root
 su root
 
 Please login into machine and enable IP Forwarding inside system by using command:
-bash -c "echo net.ipv4.ip_forward=1 >> /etc/sysctl.conf"
-sysctl -p /etc/sysctl.conf
+sudo bash -c "echo net.ipv4.ip_forward=1 >> /etc/sysctl.conf"
+sudo sysctl -p /etc/sysctl.conf
 On the machine please run following script:
 #############
 #  Routing  #
