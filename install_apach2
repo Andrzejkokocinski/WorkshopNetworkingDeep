@@ -18,6 +18,13 @@ sudo apt-get install apache2 -y
 echo "<body style="background-color:green\;"><h1>VM02</h1>" | tee /var/www/html/index.html
 sudo service apache2 restart
 
+sudo passwd root
+su root
+sudo apt-get update
+sudo apt-get install apache2 -y
+echo "<body style="background-color:blue\;"><h1>VM03</h1>" | tee /var/www/html/index.html
+sudo service apache2 restart
+
 
 echo "<body style="background-color:darkblue\;"><img src=\"https://dcassetcdn.com/design_img/3143973/83038/83038_17473254_3143973_9517d219_image.jpg\" alt=\"chmurowisko\">" | tee /var/www/html/index.html
 service apache2 restart
